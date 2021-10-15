@@ -8,7 +8,7 @@ const Home = () => {
       <InfoTopBar />
       <div style={{ width: "100%", height: "100 vh" }}>
         <SideBar />
-        <div className="w3-container" style={{ marginLeft: "15%" }}></div>
+        <MainSection />
       </div>
     </div>
   );
@@ -26,6 +26,14 @@ const SideBar = () => {
       <button className="w3-bar-item w3-button w3-border-bottom ">
         <b>Top Bars</b>
       </button>
+    </div>
+  );
+};
+
+const MainSection = () => {
+  return (
+    <div className="w3-container" style={{ marginLeft: "15%" }}>
+      <h2>The Side Bar</h2>
     </div>
   );
 };
