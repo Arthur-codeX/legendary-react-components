@@ -3,8 +3,18 @@ import React from "react";
 const Dash = () => (
   <div className="w3-container">
     <h1 className="w3-center">
-      <b>Legendary Components version 1.0.2</b>
+      <b>Legendary Components version 0.0.1</b>
     </h1>
+    <div className="w3-panel w3-margin-bottom w3-leftbar w3-light-grey">
+      <p className="w3-xlarge">
+        This library is meant as a quick refrence to react components and pages
+        designs i mostly use.
+      </p>
+      <p className="w3-large">
+        I decided to share. Have Fun. Send me an email for any clarifications
+        at: dabikengineering@gmail.com
+      </p>
+    </div>
     <div className="w3-panel w3-light-grey w3-leftbar">
       <p className="w3-xlarge">
         The main style sheet used is &nbsp;
