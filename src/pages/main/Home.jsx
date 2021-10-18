@@ -46,6 +46,14 @@ const SideBar = () => {
       >
         <b>Top Bars</b>
       </button>
+      <button
+        className={`w3-bar-item w3-button w3-border-bottom ${btnColor[2]}`}
+        onClick={() => {
+          dispatch(pageToShow("FormsPage"));
+        }}
+      >
+        <b>Forms</b>
+      </button>
     </div>
   );
 };

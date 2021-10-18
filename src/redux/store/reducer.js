@@ -5,7 +5,7 @@ const initialState = {
 };
 
 const Reducer = (state = initialState, action) => {
-  var sideBarColor = { DashPage: 0, TopBarPage: 1 };
+  var sideBarColor = { DashPage: 0, TopBarPage: 1, FormsPage: 2 };
   switch (action.type) {
     case "Page_To_Show":
       var btnNo = sideBarColor[action.value] || 0;
@@ -32,10 +32,8 @@ const Reducer = (state = initialState, action) => {
 
 function btnColorArray(colorAr, no, color = "w3-blue") {
   let newColor = [];
-  var colorPushed = false;
   for (let i = 0; i < colorAr.length; i++) {
     if (i === no) {
-      colorPushed = true;
       newColor.push(color);
       continue;
     }
