@@ -1,9 +1,9 @@
-function goBack(str) {
-  return { type: "GO_BACK", value: str };
-}
+// function goBack(str) {
+//   return { type: "GO_BACK", value: str };
+// }
 
-function pageToShow(str) {
-  return { type: "Page_To_Show", value: str };
-}
+// function pageToShow(str) {
+//   return { type: "Page_To_Show", value: str };
+// }
 
-export { goBack, pageToShow };
+// export { goBack, pageToShow };
