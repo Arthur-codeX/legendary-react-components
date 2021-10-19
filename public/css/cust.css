@@ -4,5 +4,24 @@
 
 .fullScreen {
   height: "100vh";
-  width: "100vh";
+  width: "100vw";
+}
+
+.horizontalMargin1 {
+  margin: 0px 8px;
+}
+
+.marginTopNav {
+  margin-top: 90px;
+}
+
+.border1 {
+  border-width: 2px;
+  border-style: solid;
+}
+
+hr.style-four {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
