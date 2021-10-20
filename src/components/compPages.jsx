@@ -18,7 +18,7 @@ const ExpressPageComp = () => (
       </p>
       <p className="w3-center">
         <Link
-          to="/"
+          to="/Express"
           className="w3-button w3-xlarge w3-border w3-border-grey w3-round"
         >
           Express

@@ -4,7 +4,7 @@ import { ExpressPageComp } from "./../components/compPages";
 
 const Home = () => {
   return (
-    <div style={{ height: "100vh" }}>
+    <div style={{ height: "100vh" }} className="stCont2">
       <h1 className="w3-center w3-margin-top w3-text-blue">
         <b>MERN PULSE Version: 0.0.2</b>
       </h1>

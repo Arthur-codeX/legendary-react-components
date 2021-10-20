@@ -5,9 +5,10 @@ import { createStore } from "redux";
 import { Provider } from "react-redux";
 
 import App from "./App";
-import Reducer from "./redux/store/reducer";
 
-const store = createStore(Reducer);
+import rootReducer from "./redux/store/combineReducer";
+
+const store = createStore(rootReducer);
 
 ReactDOM.render(
   <React.StrictMode>
