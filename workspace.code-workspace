@@ -1,11 +1,8 @@
 {
   "folders": [
-	{
-		"path": ".."
-	},
-	{
-		"path": "..\\..\\..\\AdminFrontEnd\\my-app\\src"
-	}
-],
+    {
+      "path": ".."
+    }
+  ],
   "settings": {}
 }

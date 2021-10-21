@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import Home from "./pages/Home";
 import ExpressPage from "./pages/Express/ExpressPage";
+import MongoPage from "./pages/Mongo/MongoPage";
 import ErrorPage from "./pages/Error";
 import { NavBar } from "./components/nav";
 function App() {
@@ -16,6 +17,9 @@ function App() {
         </Route>
         <Route path="/Express">
           <ExpressPage />
+        </Route>
+        <Route path="/Mongo">
+          <MongoPage />
         </Route>
         <Route path="*">
           <ErrorPage />

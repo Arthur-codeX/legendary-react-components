@@ -31,6 +31,13 @@ const NavBar = () => {
       >
         Express
       </Link>
+      <Link
+        to="/Mongo"
+        className={`w3-button w3-bar-item horizontalMargin1 ${navBtn[2]}`}
+        onClick={() => BtnClick(2)}
+      >
+        MongoDb
+      </Link>
     </div>
   );
 };

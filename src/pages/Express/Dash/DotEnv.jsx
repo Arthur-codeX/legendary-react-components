@@ -55,7 +55,7 @@ const DotEnv = () => {
           <b>Server.js file</b>
         </h2>
         <h5>
-          this will be our entry point when we run npm start. it can be
+          This will be our entry point when we run npm start. it can be
           server.js or index js
         </h5>
 
