@@ -1,7 +1,7 @@
 const initialState = {
   currentModule: "Home",
   lastModule: "Home",
-  btns: ["w3-blue", "", ""],
+  btns: ["w3-blue", "", "", "", "", ""],
 };
 
 const Reducer = (state = initialState, action) => {
@@ -9,6 +9,8 @@ const Reducer = (state = initialState, action) => {
     Home: 0,
     Server: 1,
     DotEnv: 2,
+    MiddleWare: 3,
+    Routes: 4,
   };
   switch (action.type) {
     case "EXPRESS_NEXT_MODULE":

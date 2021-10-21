@@ -33,6 +33,18 @@ const Sidebar = ({ sideW }) => {
       >
         DotEnv
       </button>
+      <button
+        className={`w3-bar-item w3-button  w3-border-bottom ${btn[3]}`}
+        onClick={() => dispatch(nextModal("MiddleWare", reqRed))}
+      >
+        Middle Ware
+      </button>
+      <button
+        className={`w3-bar-item w3-button  w3-border-bottom ${btn[4]}`}
+        onClick={() => dispatch(nextModal("Routes", reqRed))}
+      >
+        Routes/Controller
+      </button>
     </div>
   );
 };
