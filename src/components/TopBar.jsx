@@ -34,4 +34,21 @@ const CodeTopBar = ({ copyText, sandbox }) => {
   );
 };
 
-export { CodeTopBar };
+const CodeTopBar2 = ({ sandbox }) => {
+  sandbox = sandbox || "";
+  return (
+    <div>
+      <a
+        data-tip="sandBox"
+        href={sandbox}
+        className="w3-xxlarge pointer w3-margin-right w3-margin-left w3-ripple w3-right w3-text-blue w3-ripple"
+        target="_blank"
+      >
+        <AiOutlineCodeSandbox />
+      </a>
+      <ReactTooltip />
+    </div>
+  );
+};
+
+export { CodeTopBar, CodeTopBar2 };

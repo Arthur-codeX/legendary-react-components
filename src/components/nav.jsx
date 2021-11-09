@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
-  const [navBtn, setNavBtn] = useState(["w3-black", "", ""]);
+  const [navBtn, setNavBtn] = useState(["w3-black", "", "", ""]);
 
   function BtnClick(no = 0) {
     var btns = [];
@@ -37,6 +37,13 @@ const NavBar = () => {
         onClick={() => BtnClick(2)}
       >
         MongoDb
+      </Link>
+      <Link
+        to="/React"
+        className={`w3-button w3-bar-item horizontalMargin1 ${navBtn[3]}`}
+        onClick={() => BtnClick(3)}
+      >
+        ReactJs
       </Link>
     </div>
   );

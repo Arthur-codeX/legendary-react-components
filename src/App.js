@@ -5,7 +5,9 @@ import { ToastContainer } from "react-toastify";
 import Home from "./pages/Home";
 import ExpressPage from "./pages/Express/ExpressPage";
 import MongoPage from "./pages/Mongo/MongoPage";
+import ReactPage from "./pages/React/ReactPage";
 import ErrorPage from "./pages/Error";
+
 import { NavBar } from "./components/nav";
 function App() {
   return (
@@ -20,6 +22,12 @@ function App() {
         </Route>
         <Route path="/Mongo">
           <MongoPage />
+        </Route>
+        <Route path="/Mongo">
+          <MongoPage />
+        </Route>
+        <Route path="/React">
+          <ReactPage />
         </Route>
         <Route path="*">
           <ErrorPage />

@@ -1,6 +1,10 @@
 import React from "react";
 
-import { ExpressPageComp, MongoDbPageComp } from "./../components/compPages";
+import {
+  ExpressPageComp,
+  MongoDbPageComp,
+  ReactPageComp,
+} from "./../components/compPages";
 
 const Home = () => {
   return (
@@ -18,6 +22,7 @@ const Home = () => {
 
       <ExpressPageComp />
       <MongoDbPageComp />
+      <ReactPageComp />
     </div>
   );
 };
